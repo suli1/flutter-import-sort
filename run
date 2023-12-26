@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# 启用alias扩展功能
+shopt -s expand_aliases
+
+flutter pub run import_sorter:main
+
+# 禁用alias扩展功能
+shopt -u expand_aliases

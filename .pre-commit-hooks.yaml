@@ -1,0 +1,5 @@
+-   id: flutter-import-sort
+    name: Sort Flutter import
+    entry: run
+    language: script
+    files: \.dart$
